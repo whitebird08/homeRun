@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>whitebird field</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<h1>Home Field Advantage</h1>
+
+<div class="field">
+    <div class="infield">
+
+        <div class="base firstBase"></div>
+        <div class="base secondBase"></div>
+        <div class="base thirdBase"></div>
+        <div class="pitchersMound">
+            <div class="rubber"></div>
+        </div>
+        <div class="homePlate">
+            <div class="battersBox">
+                <div class="lbox"></div>
+                <div class="rbox"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="basePath path1"></div>
+    <div class="basePath path2"></div>
+    <div class="basePath path3"></div>
+</div>
+<div class="runner"></div>
+<div class="ball"></div>
+
+<button id="homeRun">Hit A Home Run!</button>
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script>$('#homeRun').click(function() {
+    location.reload();
+});</script>
+</body>
+</html>
